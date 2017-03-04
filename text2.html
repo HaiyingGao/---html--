@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>高兴的高小薇学院任务二</title>
+    <title>流动模式下的块状元素</title>
     <style type="text/css">
       h1{font-family:castellar;font-weight: 
       bold;}
@@ -17,6 +17,8 @@
       width:1300px;
         background-color:gray;
      padding-top: 20px;
+        padding-bottom: 
+          20px;
       }
       #box3{
         background-color: black;
@@ -76,7 +78,7 @@
       }
 
       #b25{
-        height: 420px;
+        height: 460px;
         width:1200px;
         margin-left: 45px;
         margin-top: 50px;
@@ -103,11 +105,18 @@
         flex-direction: column;text-align: center;
       
       }
+      #form1{width: 400px;
+            text-align:center;
+            margin-left: 500px;
+      }
       table{width:100%; }
       .tab{text-align: left}
-      #form{text-align: center;}
+      #form{text-align: center;
+      }
       .btn{width: 1200px;}
-     
+      .f2{float:  left;width:150px;text-align: right;margin-right: 2px;
+      }
+      input{height:30px;}
       .link{text-align: right;}
       .link ul{display: inline  ;text-align: center;margin: 0;padding: 0;}
       .link li{display: inline; text-align: center;margin: 5px; font-size: 15px;}
@@ -245,12 +254,16 @@
       <div id="b25">
         <h2>侧栏标题</h2>
         <form action="save.php" method="post" ><div id="form">
-          请输入邮箱地址：<input type="text" name="mail" value="请输入邮箱地址如xiaohong@163.com"><br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 邮箱地址请按要求格式输入<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;请输入密码：<input type="password" name="pass" value=""><br/>请重复输入密码：<input type="password" name="pass" value=""><br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 密码请为6-16位英文数字<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;性别：男<input type="radio" value="男" name="sex">&nbsp;女 
-          <input type="radio" value="女" name="sex" checked="checked">&nbsp;&nbsp;
+          <div id="form1">
+         
+            <div class="f2">请输入邮箱地址： </div>
+            <input type="text" name="mail" value="请输入邮箱地址如xiaohong@163.com">
+          <br/>
+          邮箱地址请按要求格式输入<br/>
+            <div class="f2">请输入密码： </div> <input type="password" name="pass" value=""><br/> <div class="f2"> 请重复输入密码：</div> <input type="password" name="pass" value=""><br/>
+            密码请为6-16位英文数字<br/>
+            <div class="f2"> 性别：</div>男<input type="radio" value="男" name="sex">&nbsp;女 
+          <input type="radio" value="女" name="sex" checked="checked">
           城市<select>
           <option value="北京">北京</option>
           <option value="上海">上海</option>
@@ -259,17 +272,16 @@
           <option value="广州">广州</option>
           <option value="南京">南京</option>
           <option value="武汉">武汉</option>
-          </select>&nbsp;&nbsp;<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;爱好：游泳<input type="checkbox" value="游泳" name="swim">&nbsp;跑步<input type="checkbox" value="跑步" name="run">&nbsp;看书<input type="checkbox" value="看书" name="read">&nbsp;&nbsp;<br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;个人描述：<textarea rows="4" cols="20">请输入个人描述</textarea>&nbsp;&nbsp;<br/></div>
-         
-           <input type="submit" value="提交" class="btn">&nbsp; <br/><input class="btn" type="reset" value="重置">
+          </select><br/>
+            <div class="f2">  爱好：</div> 游泳<input type="checkbox" value="游泳" name="swim">&nbsp;跑步<input type="checkbox" value="跑步" name="run">&nbsp;看书<input type="checkbox" value="看书" name="read">&nbsp;&nbsp;<br/>
+            <div class="f2">   个人描述：   </div> <textarea rows="4" cols="20">请输入个人描述</textarea>&nbsp;&nbsp;<br/></div>
+          </div> 
+          <input type="submit" value="提交" class="btn">&nbsp; <br/>
         </form>
-      </div>
-    </div>
+      </div></div>
     <div id="b3" >
       <div id="b31">
-       版权所有
+       版权所有&copy;
       </div>
     </div>
   </body>
