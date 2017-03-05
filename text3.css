@@ -1,0 +1,54 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  height:100%;
+  padding: 20px;
+}
+div{border: 1px solid #999;}
+.b{padding: 20px;}
+#box{
+     height:auto;
+     background-color: #eee;
+     overflow: auto;
+}
+#bleft{
+  width: 160px;
+  height: 80px;
+  float: left;
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+}
+#bcenter{
+  width: auto;
+  height: auto;
+  margin-left: 220px;
+  margin-right: 140px;
+  background-color: white;
+}
+#bright{  float: right;
+  width: 80px;
+  height: 286px;
+  background-color: white;
+  margin: 0px;
+}
+#b11{float: left;
+  width: 80px;
+  height: 80px;
+}
+#b31{ width: 80px;
+  height: 80px;
+}
+#b32{ width: 80px;
+  height: 80px;
+  margin: 20px 0px;
+}
+#b33{ width: 80px;
+  height: 80px;
+}
+
+.a{margin: 0px;
+width:80px;
+  height: 80px;
+}
