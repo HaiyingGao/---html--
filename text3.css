@@ -10,8 +10,8 @@ div{border: 1px solid #999;}
 #box{
      height:auto;
      background-color: #eee;
-     overflow:auto;
-     min-width: 420px;
+     overflow:hidden;
+     min-width: 450px;
 }
 #bleft{
   width: 160px;
