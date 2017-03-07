@@ -115,7 +115,7 @@ a:hover {
 
 #table{width: 96%;}
 table{width: 100%;}
-.tab{text-align:left;background-color: #262626;}
+.tab{text-align:left;background-color: #262626;color:white;}
 .t1{background-color: #8A8A8A;}
 .fl{float: left;margin-right: 5px;text-align: right;width: 140px;line-height: 2em;}
 .fr{float: right;width: 210px;line-height: 2em;}
