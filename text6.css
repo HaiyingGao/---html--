@@ -272,6 +272,7 @@ body{
   height: 318px;
   margin-top: 35px;
   position: relative;
+  background:rgba(100,20,0,0.1);
 }
 #b3221{
   width: 458px;
@@ -369,13 +370,3 @@ body{
   font-family: "SimHei";
   text-align: right;
 }
-
-
-
-
-
-
-
-
-
-
